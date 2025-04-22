@@ -41,7 +41,7 @@ The primary goal of this project is to improve egg hatching production by introd
 | Egg Turning Servo    | GPIO 22    | 5V                  | Separate servo to rotate eggs                            |
 | GND (common ground)  | ——         | ——                  | All grounds must connect together                        |
 
-*Note:* You may modify or expand this component list based on specific application requirements and available resources.
+>*Note:* You may modify or expand this component list based on specific application requirements and available resources.
 
 ## How It Works ⚙️  
 
