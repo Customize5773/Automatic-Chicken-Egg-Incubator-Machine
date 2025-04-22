@@ -1,7 +1,7 @@
 ---
 
 # Egg Incubator Experiment: Daily Log Dataset
-[Charts](Incubator_21_Day_Trends.png)
+[Charts](Incubator_21_Day_Trends.png) 📊
 
 This dataset contains detailed daily observations collected over a 21-day egg incubation experiment. An egg incubator is a machine designed to create the optimal environment for hatching eggs, involving precise control of various factors such as temperature, humidity, airflow, and egg rotation. The primary objective of recording this data is to monitor and maintain the ideal conditions for successful incubation.
 
