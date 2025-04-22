@@ -1,8 +1,8 @@
 ---
 
 # Automatic-Chicken-Egg-Incubator-Machine 🐣
+![Consept Automatic Chicken Egg Incubator Machine](https://github.com/user-attachments/assets/66818f48-8c56-4924-b96e-371d37cd8868)
 
-![Consept Automatic Chicken Egg Incubator Machine](https://github.com/user-attachments/assets/7f23f338-4053-4730-b0b7-bd19ad03a09c)
 > Consept Automatic Chicken Egg Incubator Machine
 
 ## Introduction 📚  
