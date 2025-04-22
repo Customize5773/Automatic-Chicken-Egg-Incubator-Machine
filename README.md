@@ -17,8 +17,6 @@ The primary goal of this project is to improve egg hatching production by introd
 
 ## Materials 🛠️  
 
-Below is the list of essential materials and components required to build the hatching machine:
-
 - **Plywood**    
   - Dimension: 40 cm (Length) x 25 cm (Width) x 30 cm (Height)  
 - **Arduino Uno (R3)**  
@@ -31,7 +29,17 @@ Below is the list of essential materials and components required to build the ha
 - **Servo Motor** (to control the opening and closing of air vents)  
 - **Switch Button**  
 - **12V Power Supply**  
-- **12V PC Fan** (operated at 5V to ensure gentle and even air circulation)  
+- **12V PC Fan** (operated at 5V to ensure gentle and even air circulation)
+---
+| Component            | GPIO       | Power Source        | Notes                                                    |
+|----------------------|------------|---------------------|----------------------------------------------------------|
+| ESP32                |            |                     |                                                          |
+| DHT22 Sensor         | GPIO 15    | 3.3V                | Add 10kΩ pull-up resistor on data pin                    |
+| 2-Channel Relay      | GPIO 18    | 5V                  | IN1: bulb control; GND to ESP GND                       |
+| Servo Motor (vents)  | GPIO 19    | 5V (external OK)    | Signal wire from servo to pin 19                          |
+| PC Fan               | VIN (or GPIO 23) | 5V                  | Direct 5V from VIN (external 5V OK)                    |
+| Egg Turning Servo    | GPIO 22    | 5V                  | Separate servo to rotate eggs                            |
+| GND (common ground)  | ——         | ——                  | All grounds must connect together                        |
 
 *Note:* You may modify or expand this component list based on specific application requirements and available resources.
 
