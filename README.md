@@ -2,6 +2,9 @@
 
 # Automatic-Chicken-Egg-Incubator-Machine 🐣
 
+![Consept Automatic Chicken Egg Incubator Machine](https://github.com/user-attachments/assets/7f23f338-4053-4730-b0b7-bd19ad03a09c)
+> Consept Automatic Chicken Egg Incubator Machine
+
 ## Introduction 📚  
 In line with the rapid development of modern times, the demand for animal protein among the population has significantly increased. Population growth and modernization have driven the need for more efficient and innovative production methods. However, conventional methods of hatching chicken eggs are still widely used, despite their relatively low success rate. This condition has sparked the search for alternative solutions to improve overall efficiency in the hatching process.
 
