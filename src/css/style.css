@@ -1,0 +1,88 @@
+/* — Color & font variables — */
+:root {
+  --bg: #f4f4f9;
+  --card-bg: #ffffff;
+  --text: #333333;
+  --label: #555555;
+  --on: #2a9d8f;
+  --off: #e63946;
+  --shadow: rgba(0, 0, 0, 0.1);
+  --font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* — Global reset & body — */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* — Header — */
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+/* — Grid layout — */
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+/* — Card styles — */
+.card {
+  background: var(--card-bg);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 4px 12px var(--shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px var(--shadow);
+}
+
+.card p:first-child {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: var(--label);
+}
+
+/* — Status text — */
+.status-on,
+.status-off {
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.status-on {
+  color: var(--on);
+}
+
+.status-off {
+  color: var(--off);
+}
+
+/* — Responsive tweak — */
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+}
